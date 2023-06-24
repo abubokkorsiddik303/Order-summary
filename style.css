@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 3rem;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 32.5rem;
+  border-radius: 11px;
+  box-shadow: 0 0 20px 0px hsl(224, 23%, 55%);
+}
+
+.headimg img {
+  width: 100%;
+  border-radius: 11px 11px 0 0;
+}
+
+.body-container {
+  margin: 3rem;
+}
+
+.heading {
+  text-align: center;
+  /* width: 100%; */
+}
+
+.head {
+  font-weight: 900;
+  font-size: 2rem;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 1rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1.5rem;
+  border-radius: 11px;
+  width: 100%;
+}
+
+.box img {
+  width: 3rem;
+}
+
+.box a {
+  margin-left: auto;
+  font-weight: 700;
+}
+
+.box a:hover {
+  text-decoration: none;
+  color: hsl(245, 66%, 64%);
+}
+
+.plan {
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.money {
+  font-weight: 500;
+  font-size: 1rem;
+  color: hsl(224, 23%, 55%);
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 11px;
+  background-color: hsl(245, 75%, 52%);
+  cursor: pointer;
+  margin: 2rem 0;
+  color: hsl(225, 100%, 98%);
+}
+
+button:hover {
+  background-color: hsl(245, 57%, 66%);
+}
+
+.fooder {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.fooder a {
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.fooder a:hover {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url(images/pattern-background-mobile.svg);
+    padding: 3rem;
+  }
+}
